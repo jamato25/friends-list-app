@@ -56,8 +56,6 @@ const addListeners = async() =>{
   form.addEventListener('submit', async (ev) =>{
     ev.preventDefault()
     await axios.post('/api/friends')
-
-
     render()
   })
 }
